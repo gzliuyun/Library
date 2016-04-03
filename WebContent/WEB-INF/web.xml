@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+	<servlet>
+		<servlet-name>Add_into_table</servlet-name>
+		<servlet-class>sources.solution.Add_into_table</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Add_into_table</servlet-name>
+		<url-pattern>/Add_into_table</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Select_from_table</servlet-name>
+		<servlet-class>sources.solution.Select_from_table</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Select_from_table</servlet-name>
+		<url-pattern>/Select_from_table</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Updata_from_table</servlet-name>
+		<servlet-class>sources.solution.Updata_from_table</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Updata_from_table</servlet-name>
+		<url-pattern>/Updata_from_table</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Delete_from_table</servlet-name>
+		<servlet-class>sources.solution.Delete_from_table</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Delete_from_table</servlet-name>
+		<url-pattern>/Delete_from_table</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Book_updata_1</servlet-name>
+		<servlet-class>sources.solution.Book_updata_1</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Book_updata_1</servlet-name>
+		<url-pattern>/Book_updata_1</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>Search_reader_1</servlet-name>
+		<servlet-class>sources.solution.Search_reader_1</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>Search_reader_1</servlet-name>
+		<url-pattern>/Search_reader_1</url-pattern>
+	</servlet-mapping>
+</web-app>
